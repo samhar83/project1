@@ -68,6 +68,7 @@ module.exports = function(grunt) {
 		,replacer=function(template,data)
 		{
 			var output=layout.replace(/{CONTENT}/g,template);
+			output=output.replace(/{DESCRIPTION}/g,data.description||config.description);
 			output=output.replace(/{URI}/g,config.uri);
 			output=output.replace(/{MENU}/g,config.menu);
 			output=output.replace(/{SITETITLE}/g,config.title);
