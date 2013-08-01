@@ -10,5 +10,9 @@
   },
   "repository": "",
   "author": "Comandeer",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "grunt-manifest": "~0.4.0",
+    "grunt-contrib-imagemin": "~0.1.4"
+  }
 }
